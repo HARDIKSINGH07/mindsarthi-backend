@@ -80,7 +80,7 @@ def chat():
 
     return jsonify({"response": response})
 
-# ------------------------ Main Section ------------------------
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+# # ------------------------ Main Section ------------------------
+# if __name__ == '__main__':
+#     port = int(os.environ.get('PORT', 5000))
+#     app.run(host='0.0.0.0', port=port)
